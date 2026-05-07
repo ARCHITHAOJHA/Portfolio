@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>ArchithaOjha</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="gradient-text">Architha Ojha</span></h1>
+            <p class="hero-subtitle">
+                <span class="hero-subtitle-label">I am a</span>
+                <span class="hero-role-wrap">
+                    <span class="hero-role" id="hero-role">Full Stack Developer</span>
+                </span>
+            </p>
+            <div class="hero-cta">
+                <a class="btn btn-primary" href="Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+                <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+            <span class="orbit-center">👩‍💻</span>
+            <span class="orbit-satellite">🤖</span>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="about-kicker">Who I Am</span>
+                    <h3 class="about-heading">Creative developer focused on elegant UI and practical solutions.</h3>
+                    <p>I'm a passionate developer with a love for creating beautiful and functional web applications. With expertise in modern web technologies, I transform ideas into digital solutions.</p>
+                    <p>My journey in tech started with curiosity and has evolved into a professional career focused on delivering exceptional user experiences and clean, efficient code.</p>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <img src="ProfilePic.jpeg" alt="Profile Photo" class="profile-image">
+                        <div class="profile-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+            <div class="education-card">
+                <div class="education-badge">2023 - 2027</div>
+                <h3>Bachelor's in Computer Science-AIML</h3>
+                <p class="school">SR University</p>
+                <p class="description">Focused on software development, algorithms, and modern web technologies, with a strong academic foundation and a distinction of graduating with honors.</p>
+                <div class="education-footer">
+                    <div class="cgpa-group">
+                        <span class="cgpa-label">CGPA</span>
+                        <span class="cgpa-value">9.32</span>
+                    </div>
+                        <a class="education-view-btn" href="SemMemo.pdf" target="_blank" rel="noopener noreferrer">View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Things I've Built, <span class="gradient-text">Researched</span>, and Shipped</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🍕</div>
+                        <div class="project-actions">
+                            <a href="https://github.com/ARCHITHAOJHA/FoodApplication.git" class="project-action-btn" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="https://food-delivery-app-ochre-alpha.vercel.app/" class="project-action-btn" title="Live Demo" target="_blank" rel="noopener noreferrer"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Food Delivery App</h3>
+                        <p>Full-stack app with ordering, payments, and role-based modules (Admin, Customer, Owner). Complete end-to-end solution for food delivery management with real-time tracking.</p>
+                        <div class="project-tags">
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">React</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Razorpay</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔐</div>
+                        <div class="project-actions">
+                            <a href="https://github.com/ARCHITHAOJHA/AuthenticationSystem.git" class="project-action-btn" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="https://authentication-system-one-kappa.vercel.app/" class="project-action-btn" title="Live Demo" target="_blank" rel="noopener noreferrer"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Authentication System</h3>
+                        <p>JWT-based authentication with secure login and role-based access control. Implements industry-standard security practices for user management and authorization.</p>
+                        <div class="project-tags">
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">React</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">💊</div>
+                        <div class="project-actions">
+                            <a href="https://github.com/ARCHITHAOJHA/MedicineRecommendationSystem-WellnessHub.git" class="project-action-btn" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="https://medicine-recommendation-system-well.vercel.app/" class="project-action-btn" title="Live Demo" target="_blank" rel="noopener noreferrer"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Medicine Recommendation System</h3>
+                        <p>ML system for symptom-based medicine suggestions with Flask UI. Uses machine learning algorithms to provide intelligent medicine recommendations based on symptoms.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">ML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎬</div>
+                        <div class="project-actions">
+                            <a href="https://github.com/ARCHITHAOJHA/MovieRecommendationSystem.git" class="project-action-btn" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="https://movierecommendationsystem-rk6dyqnqt3govfregmbxfw.streamlit.app/" class="project-action-btn" title="Live Demo" target="_blank" rel="noopener noreferrer"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Movie Recommendation System</h3>
+                        <p>Popularity-based recommendation system with interactive UI. Analyzes user preferences and movie data to provide personalized movie suggestions.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📈</div>
+                        <div class="project-actions">
+                            <a href="https://github.com/ARCHITHAOJHA/CustomerChurnPredictor.git" class="project-action-btn" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="https://customerchurnpredictor-6vpizpquuf74au2khvxjdq.streamlit.app/" class="project-action-btn" title="Live Demo" target="_blank" rel="noopener noreferrer"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Customer Churn Prediction</h3>
+                        <p>ML model to identify high-risk customers and improve retention. Predicts customer churn patterns using advanced machine learning techniques for proactive customer management.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">XGBoost</span>
+                            <span class="tag">Matplotlib</span>
+                            <span class="tag">Predictive Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <div class="skills-panel">
+                <div class="skills-column">
+                    <ul class="skill-list skill-list-large">
+                        <li><strong>Languages:</strong> Java, Python</li>
+                        <li><strong>Web:</strong> HTML, CSS, JS, React</li>
+                        <li><strong>Databases:</strong> PostgreSQL, MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skills-column">
+                    <ul class="skill-list skill-list-large">
+                        <li><strong>Frameworks:</strong> Spring Boot, Flask</li>
+                        <li><strong>Tools:</strong> Git, Docker, Kubernetes</li>
+                        <li><strong>Cloud:</strong> AWS (EC2, S3, Lambda)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skills-showcase">
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-java-plain"></i></div>
+                    <span>Java</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-python-plain"></i></div>
+                    <span>Python</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-html5-plain"></i></div>
+                    <span>HTML</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-css3-plain"></i></div>
+                    <span>CSS</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-javascript-plain"></i></div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-react-original"></i></div>
+                    <span>React</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-spring-plain"></i></div>
+                    <span>Spring Boot</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-flask-original"></i></div>
+                    <span>Flask</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-postgresql-plain"></i></div>
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-mongodb-plain"></i></div>
+                    <span>MongoDB</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-git-plain"></i></div>
+                    <span>Git</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-docker-plain"></i></div>
+                    <span>Docker</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-kubernetes-plain"></i></div>
+                    <span>Kubernetes</span>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="devicon-amazonwebservices-plain-wordmark"></i></div>
+                    <span>AWS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & <span class="gradient-text">Awards</span></h2>
+            <div class="achievements-grid">
+                <article class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Semester Topper - 1st Year</h3>
+                    <p>Rewarded for securing the top position in the first year.</p>
+                </article>
+
+                <article class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Semester Topper - 2nd Year</h3>
+                    <p>Rewarded for maintaining the top position in the second year.</p>
+                </article>
+            </div>
+
+            <div class="achievement-photos">
+                <h3 class="gallery-title">Related Photos</h3>
+
+                <div class="carousel" aria-label="Achievement photos carousel">
+                    <button class="carousel-button prev" aria-label="Previous slide">‹</button>
+                    <div class="carousel-viewport">
+                        <ul class="carousel-track">
+                            <li class="carousel-slide"><img data-src="AchImages/one.jpeg" alt="Achievement 1" class="achievement-photo"/></li>
+                            <li class="carousel-slide"><img data-src="AchImages/two.jpeg" alt="Achievement 2" class="achievement-photo"/></li>
+                            <li class="carousel-slide"><img data-src="AchImages/three.jpeg" alt="Achievement 3" class="achievement-photo"/></li>
+                            <li class="carousel-slide"><img data-src="AchImages/four.jpeg" alt="Achievement 4" class="achievement-photo"/></li>
+                            <li class="carousel-slide"><img data-src="AchImages/five.jpeg" alt="Achievement 5" class="achievement-photo"/></li>
+                            <li class="carousel-slide"><img data-src="AchImages/six.jpeg" alt="Achievement 6" class="achievement-photo"/></li>
+                            <li class="carousel-slide"><img data-src="AchImages/seven.jpeg" alt="Achievement 7" class="achievement-photo"/></li>
+                        </ul>
+                    </div>
+                    <button class="carousel-button next" aria-label="Next slide">›</button>
+                    <div class="carousel-dots" aria-hidden="false"></div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Professional <span class="gradient-text">Certifications</span></h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Cisco</h3>
+                    <ul class="cert-list">
+                        <li>Networking</li>
+                        <li>Cybersecurity</li>
+                        <li>Data Analytics</li>
+                        <li>EndPoint Security</li>
+                        <li>Cisco Packet Tracer</li>
+                        <li>Computer Networking</li>
+
+
+                    </ul>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                    <h3>AWS Academy</h3>
+                    <ul class="cert-list">
+                        <li>Cloud Developing</li>
+                        <li>Security</li>
+                        <li>Web Apps</li>
+                    </ul>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-icon"><i class="fas fa-greater-than"></i></div>
+                    <h3>Accenture</h3>
+                    <ul class="cert-list">
+                        <li>iAspire - Go for Gold</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-icon"><i class="fas fa-brain"></i></div>
+                    <h3>AICTE</h3>
+                    <ul class="cert-list">
+                        <li>AI/ML Virtual Internship</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="certifications-actions">
+                <button class="btn btn-primary" id="view-all-certs">View All Certificates</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Modal -->
+    <div class="cert-modal" id="cert-modal">
+        <div class="cert-modal-content">
+            <button class="cert-modal-close" id="close-cert-modal">&times;</button>
+            <h2>All Certifications</h2>
+            <div id="cert-gallery" class="cert-modal-grid" aria-live="polite">
+                <!-- Gallery will be populated dynamically from Certificates/ folder -->
+            </div>
+
+            <div id="cert-viewer" class="cert-viewer" hidden>
+                <div class="cert-viewer-toolbar">
+                    <button id="cert-back" class="btn btn-secondary">Back to gallery</button>
+                    <button id="cert-open-new" class="btn btn-secondary">Open in new tab</button>
+                </div>
+                <iframe id="cert-iframe" title="Certificate preview" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+            <div class="contact-content">
+                <p>I'm always interested in hearing about new projects and opportunities.</p>
+                <div class="contact-methods">
+                    <a href="mailto:your.email@example.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>ojhaarchitha@gmail.com</p>
+                    </a>
+                    <a href="https://leetcode.com/u/Archithaojha/" class="contact-card" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-code"></i>
+                        <h3>LeetCode</h3>
+                        <p>Archithaojha</p>
+                    </a>
+                    <a href="tel:+1234567890" class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>8019050866</p>
+                    </a>
+                    <a href="#" class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Telangana, India</p>
+                    </a>
+                </div>
+                <div class="social-links-large">
+                    <a href="https://github.com/ARCHITHAOJHA" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/architha-ojha-a74557277" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/u/Archithaojha/" title="LeetCode"><i class="fas fa-code"></i></a>
+                    <a href="https://www.instagram.com/archithaojha?igsh=YmJvdGZsZWl5dTZt" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Architha Ojha. All rights reserved.</p>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
